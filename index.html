@@ -38,7 +38,7 @@ body {
     background: #48db7e;
     border-bottom: 2px solid #166534;
 }
-#header img { max-width: 100%; height: auto; }
+#header img { max-width:65% ; height: auto; }
 #header .titulo-evento { font-size: clamp(12px, 2.4vw, 20px); font-weight: bold; line-height: 1.25; overflow-wrap: break-word; }
 #header .titulo-evento p { margin: 3px 0 0 0; font-size: 0.8em; font-weight: 600; opacity: 0.9; }
 
@@ -158,7 +158,7 @@ tbody tr:nth-child(even) { background: #dcfce7; }
 .marquee { display: inline-block; padding-left: 100%; animation: marquee 25s linear infinite; }
 @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
 #logo-prefeitura-area { background: #48db7e; text-align: center; padding: 5px 0; flex-shrink: 0; }
-#logo-prefeitura-area img { max-width: 100%; height: auto; max-height: clamp(50px, 12vw, 120px); }
+#logo-prefeitura-area img { max-width: 100%; height: auto; max-height: clamp(50px, 12vw, 60px); }
 .legenda-container { grid-column: 1 / -1; display: flex; flex-wrap: wrap; justify-content: center; gap: clamp(6px, 2vw, 15px); margin-top: 5px; padding-top: 5px; border-top: 1px solid rgba(22, 101, 52, 0.3); }
 .legenda-item { display: flex; align-items: center; font-size: clamp(8px, 1.4vw, 10px); font-weight: bold; text-transform: uppercase; color: #1a1a1a; white-space: nowrap; }
 .ponto-legenda { width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; border: 1px solid rgba(0,0,0,0.2); flex-shrink: 0; }
@@ -263,7 +263,7 @@ tbody tr:nth-child(even) { background: #dcfce7; }
 
   <div class="quadro quadro-imagem">
 
-<img src="https://raw.githubusercontent.com/NossoEventoRS/Imagens/refs/heads/main/tiser3.png">
+<img src="https://raw.githubusercontent.com/NossoEventoRS/Imagens/refs/heads/main/tiser2.png">
 </div>
 </div>
 
@@ -297,9 +297,9 @@ const MAPA_PALCOS = {
 // Usado só em telas largas (modo TV/monitor), pra distribuir a altura
 // disponível entre esse número de linhas. Em celular vira rolagem livre.
 const LINHAS_POR_PALCO = {
-    "1":10,  // Palco A - Grupo
-    "2":9,  // Palco A - Dança PAR
-    "3": 12 // Palco B - Declamação
+    "1":5,  // Palco A - Grupo
+    "2":3,  // Palco A - Dança PAR
+    "3": 4 // Palco B - Declamação
 };
 
 let dadosGlobais = {};
